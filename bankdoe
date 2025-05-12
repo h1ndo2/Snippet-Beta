@@ -19,13 +19,13 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Username = LocalPlayer.Name  
 
 -- // Show Notification on Script Load
-Library:Notify("Welcome Thank you for using [Bypassin] - " .. Username .. " 👏", 5)
+Library:Notify("Welcome Thank you for using [BankDoe] - " .. Username .. " 👏", 5)
 task.wait(1) 
 Library:Notify("Status: 🟢 Undetected (Safe from bans)", 5)
 
 -- // Create Main UI Window
 local Window = Library:CreateWindow({
-    Title = 'Bypassin | [Beta v1.0] | Premium Version',
+    Title = 'BankDoe',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -2236,10 +2236,10 @@ end)
 local MenuGroup = Tabs['Settings']:AddLeftGroupbox('Menu')
 local MenuGroupRight = Tabs['Settings']:AddRightGroupbox('Server')  -- Changed to AddRightGroupbox
 
-local madeByLabel = MenuGroup:AddLabel('Made by: bypassinjayo')
+local madeByLabel = MenuGroup:AddLabel('Made by: bank & hundo')
 
 MenuGroup:AddButton('Copy Discord', function() 
-    setclipboard('https://discord.gg/bypassin') -- Replace with your actual Discord link
+    setclipboard('https://discord.gg/Pu9ktN5jWs') -- Replace with your actual Discord link
     Library:Notify("Discord link copied!", 3)
 end)
 
